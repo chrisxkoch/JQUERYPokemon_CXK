@@ -1,0 +1,94 @@
+* {
+	font-family: Calibri;
+}
+
+body{
+    background-color: darkslategray;
+    color:black;
+    font-weight: bold;
+}
+
+.btn{
+    width:100%;
+    border-radius:5px;
+    padding:5%;
+    font-weight:bold;
+    text-transform:capitalize;
+    font-variant:small-caps;
+	box-shadow:2px 2px;
+	background-color: #e0b354;
+	color:black;
+}
+
+.list-group-item{
+    list-style-type:none;
+    margin-bottom:15px;
+    padding-right:10%;
+}
+.poke-section{
+    border:2px black outset;
+    border-radius:5px;
+    background-color:whitesmoke;
+    color:black;
+    width:30%;
+    height:550px;
+    box-shadow:2px 2px;
+    overflow-y:scroll;
+    margin-top:5%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin: auto
+ }
+ .page-title{
+     text-align: center;
+     color:rgb(0, 0, 0);
+     background-color: inherit;
+   }
+.list-group{
+  padding:5px;
+}
+@media all and (max-width:500px){
+    .btn{
+        font-size: 12px;
+
+    }
+}
+
+/*Model Style*/
+#pokeName{
+    margin-top: 10px;
+    color:darkslategray;
+    font-weight:bold;
+    font-size:38px;
+    text-transform:capitalize;
+    font-variant:small-caps;
+    border-radius: 5px;
+    box-shadow: 2px 2px grey;
+	padding: 5px;
+	text-align: center;
+}
+#pokeHeight , #pokeWeight{
+     font-size: 18px;
+     text-align: center;
+     color:darkslategray;
+     background-color: inherit;
+     margin-bottom:5%;
+}
+
+#pokeImg{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 25%;
+      height: auto;
+}
+/*Model Style Attributes End*/
+header{
+    padding: 2px;
+    background-color: #e0b354;
+    color:inherit;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow:2px 2px grey;
+
+ }
